@@ -1,6 +1,4 @@
-```html
-# <font color="#f05136">ProGrad</font>
-```
+# ProGrad
 
 ## LAB | ProGrad Premier League
 

@@ -43,7 +43,7 @@ jasmineRequire.HtmlReporter = function (j$) {
           },
           createDom('a', {
             className: 'jasmine-title',
-            href: 'https://www.focusacademy.in/',
+            href: 'https://www.faceprep.in/prograd/',
             target: '_blank'
           }),
           createDom('span', {

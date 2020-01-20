@@ -26,7 +26,7 @@ Alas, for all the money in the world, he can't find a decent programmer to help 
 
 ## Starter code
 
-The `src/data.js` contains an array of 250 players. We are talking about the array of 250 _objects_ containing the info about each movie. Here is one example of how the data is displayed:
+The `src/data.js` contains an array of 250 players. We are talking about the array of 250 _objects_ containing the info about each player. Here is one example of how the data is displayed:
 
 ```javascript
 {

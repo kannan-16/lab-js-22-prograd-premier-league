@@ -65,12 +65,43 @@
             </div>
         </div>
         <div class="title-container">
-            <p class="subtitle non-bold">Debut Year <img src="./assets/down-arrow.svg" alt="down"></p>
-            <p class="subtitle non-bold">Position <img src="./assets/down-arrow.svg" alt="down"></p>
-            <p class="subtitle non-bold">Award <img src="./assets/down-arrow.svg" alt="down"></p>
-            <p class="subtitle non-bold award-selected">No. of Awards <img src="./assets/down-arrow.svg" alt="down"></p>
-            <p class="subtitle non-bold award-selected">Country <img src="./assets/down-arrow.svg" alt="down"></p>
-            <p class="subtitle non-bold number-awards-team-selected">Age <img src="./assets/down-arrow.svg" alt="down">
+            <div class="dropdown">
+                <p class="subtitle non-bold">Debut Year <img src="./assets/down-arrow.svg" alt="down">
+                    <div class="dropdown-list" id="dropdown-debut">
+                    </div>
+                </p>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Position <img src="./assets/down-arrow.svg" alt="down">
+                    <div class="dropdown-list" id="dropdown-position">
+                    </div>
+                </p>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Award <img src="./assets/down-arrow.svg" alt="down">
+                    <div class="dropdown-list" id="dropdown-award">
+                    </div>
+                </p>
+            </div>
+
+            <p class="subtitle non-bold award-selected">No. of Awards <input type="text" class="inputText"
+                    id="awardCount"></p>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold award-selected">Team <img src="./assets/down-arrow.svg" alt="down"></p>
+                <div class="dropdown-list" id="dropdown-team">
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold award-selected">Country <img src="./assets/down-arrow.svg" alt="down"></p>
+                <div class="dropdown-list" id="dropdown-country">
+                </div>
+            </div>
+
+            <p class="subtitle non-bold number-awards-team-selected">Age <input type="text" class="inputText" id="age">
             </p>
         </div>
         <div class="title-container">

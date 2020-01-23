@@ -6,23 +6,23 @@ Alex is a young enterprenuer who is out to assemble his own football team to ent
 
 Alas, for all the money in the world, he can't find a decent programmer to help him with this task. He's designed the front-end of the application and it looks great. He needs **YOU** to help him code functionalities in the back-end though. Go to the `src/app.js` file and complete all the unfinished code to propel this young man's football dream.
 
-## Requirements
+## What should you do?
 
 - Fork this repo
 - Clone this repo
 - Practice JavaScript basics - _operators, conditions, loops_
 
-## Submission
+## How do you submit?
 
 - Upon completion, run the following commands:
 
   ```
   git add .
-  git commit -m "done"
+  git commit -m "prograd ID"
   git push origin master
   ```
 
-- Create Pull Request so your TAs can check up your work.
+- Create a pull request so your teaching mentors can check your work.
 
 ## Starter code
 

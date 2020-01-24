@@ -64,14 +64,24 @@ html {
     border-top: 1px solid grey;
 }
 
+.squad .subtitle:hover {
+    cursor: pointer;
+}
+
 .subtitle.filtertype-active {
     border-radius: 15.5px;
     background-color: #212121;
     color: white;
+    fill: white;
 }
 
 .subtitle.non-bold {
     font-weight: normal;
+}
+
+#filter-type,
+#sort-type {
+    display: none;
 }
 
 .filter-container {
@@ -264,11 +274,40 @@ html {
 .dropdown-list {
     display: none;
     z-index: 2;
+    min-width: 120px;
+    text-align: center;
+    line-height: 1.5em;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
     position: absolute;
-    background-color: white;
-    box-shadow: -2px 4px 2px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-list {
     display: block;
+}
+
+.dropdown-list p:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.award-selected,
+.team-selected {
+    display: none;
+}
+
+.goButton {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    color: #212121;
+    background: black;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    margin: 14px;
+    padding: 4px;
+    cursor: pointer;
 }

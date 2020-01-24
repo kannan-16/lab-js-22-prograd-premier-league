@@ -9,6 +9,7 @@
     <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>ProGrad Premier League</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 
 <body>
@@ -55,44 +56,52 @@
     </section>
 
     <section class="Rectangle squad">
-        <div class="title-container">
+        <div class="title-container" id="type-of-filter">
             <p class="title">SQUAD</p>
             <div class="filter-container">
-                <p class="subtitle filtertype-active"><img src="./assets/cross.svg" alt="filter"><span> APPLY
+                <p class="subtitle"><i class="fas fa-filter"></i><span> APPLY
                         FILTERS</span>
                 </p>
-                <p class="subtitle"><img src="./assets/filter-icon.svg" alt="filter"><span>APPLY SORT</span></p>
             </div>
         </div>
-        <div class="title-container">
+        <div class="title-container" id="filter-type">
             <div class="dropdown">
-                <p class="subtitle non-bold">Debut Year <img src="./assets/down-arrow.svg" alt="down">
+                <p class="subtitle non-bold">Debut Year <span id="debutflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
                     <div class="dropdown-list" id="dropdown-debut">
                     </div>
                 </p>
             </div>
 
             <div class="dropdown">
-                <p class="subtitle non-bold">Position <img src="./assets/down-arrow.svg" alt="down">
+                <p class="subtitle non-bold">Position <span id="positionflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
                     <div class="dropdown-list" id="dropdown-position">
                     </div>
                 </p>
             </div>
 
             <div class="dropdown">
-                <p class="subtitle non-bold">Award <img src="./assets/down-arrow.svg" alt="down">
+                <p class="subtitle non-bold">Team <span id="teamflag"></span><img src="./assets/down-arrow.svg"
+                        alt="down"></p>
+                <div class="dropdown-list" id="dropdown-team">
+                </div>
+            </div>
+
+            <p class="subtitle non-bold team-selected">Younger than <input type="text" class="inputText" id="age">
+            </p>
+
+            <p class="subtitle non-bold team-selected">No. of Awards <input type="text" class="inputText"
+                    id="awardCountTotal"></p>
+
+            <div class="goButton team-selected" id="goButton">Go</div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Award <span id="awardflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
                     <div class="dropdown-list" id="dropdown-award">
                     </div>
                 </p>
-            </div>
-
-            <p class="subtitle non-bold award-selected">No. of Awards <input type="text" class="inputText"
-                    id="awardCount"></p>
-
-            <div class="dropdown">
-                <p class="subtitle non-bold award-selected">Team <img src="./assets/down-arrow.svg" alt="down"></p>
-                <div class="dropdown-list" id="dropdown-team">
-                </div>
             </div>
 
             <div class="dropdown">
@@ -101,14 +110,12 @@
                 </div>
             </div>
 
-            <p class="subtitle non-bold number-awards-team-selected">Age <input type="text" class="inputText" id="age">
-            </p>
+            <p class="subtitle non-bold award-selected">No. of Awards <input type="text" class="inputText"
+                    id="awardCount"></p>
+
         </div>
-        <div class="title-container">
-            <p class="subtitle non-bold filtertype-active">Oldest to Newest</p>
-            <p class="subtitle non-bold">More Awards</p>
-            <p class="subtitle non-bold">Alphabetical Sort</p>
-            <p class="subtitle non-bold">Alphabetical x Award Sort</p>
+        <div id="player-container">
+
         </div>
     </section>
     <script type="text/javascript" src="link.js"></script>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +11,10 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-bar,
@@ -48,7 +54,6 @@ html {
 }
 
 .title {
-    font-family: OpenSans;
     font-size: 20px;
     font-weight: 800;
     letter-spacing: -1px;
@@ -91,7 +96,6 @@ html {
 }
 
 .subtitle {
-    font-family: OpenSans;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: -0.8px;
@@ -116,7 +120,6 @@ html {
 }
 
 .insidetext {
-    font-family: OpenSans;
     font-size: 20px;
     color: #212121;
     padding: 0px 30px;
@@ -195,7 +198,6 @@ html {
 }
 
 .smalltext {
-    font-family: OpenSans;
     font-size: 14px;
     color: #212121;
 }
@@ -241,7 +243,6 @@ html {
 }
 
 .minor-title {
-    font-family: OpenSans;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: -0.8px;
@@ -252,13 +253,13 @@ html {
 }
 
 .minor-text {
-    font-family: OpenSans;
+
     font-size: 14px;
     color: #212121;
 }
 
 .half span {
-    font-family: OpenSans;
+
     font-size: 20px;
     font-weight: 800;
     color: #212121;
@@ -298,7 +299,6 @@ html {
 }
 
 .goButton {
-    font-family: OpenSans;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: -0.8px;

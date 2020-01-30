@@ -21,7 +21,7 @@ try {
 }
 
 //Trial 2 - create a formation object and return it
-var formation = [4, 2, 4];
+var formation = [4, 4, 3];
 
 function createFormation(formation) {
   if (formation.length == 0) {

@@ -76,12 +76,12 @@ function filterByDebut(year) {
 //Trick2 - Filter players by the position
 //Uncomment this
 
-// function filterByPosition(position) {
-//   var arr = [];
-//   players.forEach(element => {
-//     if (element.position == position) {
-//       arr.push(element);
-//     }
-//   });
-//   return arr;
-// }
+function filterByPosition(position) {
+  var arr = [];
+  players.forEach(element => {
+    if (element.position == position) {
+      arr.push(element);
+    }
+  });
+  return arr;
+}
